@@ -1,0 +1,116 @@
+.r-sb,
+.l-sb,
+.mid-c,
+.tools-sb,
+.options-sb,
+.save-load-bar {
+  height: 100vh;
+  cursor: default;
+}
+.tools-sb,
+.options-sb,
+.save-load-bar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 1;
+  width: 470px;
+  -webkit-transition: right .28s, opacity .33s;
+       -o-transition: right .28s, opacity .33s;
+          transition: right .28s, opacity .33s;
+  -webkit-transition-timing-function: ease-in-out;
+       -o-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  opacity: 0;
+}
+.r-sb,
+.l-sb {
+  display: none;
+  max-width: 40px;
+  padding: 0;
+}
+.rb-open .r-sb,
+.lb-open .l-sb {
+  display: block;
+}
+.t-rsb,
+.t-lsb,
+.b-rsb,
+.b-lsb {
+  visibility: hidden;
+  max-width: 40px;
+  max-height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  padding: 0;
+}
+.c-rsb,
+.c-lsb {
+  height: calc(100vh - 80px);
+}
+.c-midc {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.c-midc::-webkit-scroll
+bar {
+  display: none;
+}
+.prtobig .c-midc::-webkit-scrollbar {
+  display: block;
+}
+.tb-open .c-midc,
+.bb-open .c-midc {
+  height: calc(100vh - 40px);
+}
+.tb-open.bb-open .c-midc {
+  height: calc(100vh - 80px);
+}
+.t-midc,
+.b-midc {
+  display: none;
+  height: 40px;
+  max-height: 40px;
+  overflow: hidden;
+}
+.tb-open .t-midc,
+.bb-open .b-midc {
+  display: flex;
+}
+.c-lsb > div > .rico,
+.c-rsb > div > .rico {
+  display: none;
+  height: calc((100vh - 80px) / 2);
+}
+.c-lsb > div > .rico:first-child,
+.c-lsb > div > .rico:last-child,
+.c-rsb > div > .rico:first-child,
+.c-rsb > div > .rico:last-child {
+  display: block;
+}
+.prtobig .c-lsb .rico,
+.prtobig .c-rsb .rico {
+  display: block;
+  height: calc((100vh - 80px) / 4);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
