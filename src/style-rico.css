@@ -1,0 +1,261 @@
+/* size - min=16px max=60px */
+
+/* custom color */
+.rico-ccl .rico {
+  color: #A69174 !important;
+}
+/* custom background-color */
+.rico-cbg .rico {
+  background-color: #0D0D0D !important;
+}
+/* main style rico */
+.rico {
+  display: block;
+  overflow: hidden;
+  line-height: 1;
+  text-align: center;
+}
+.rico > * {
+  display: none !important;
+}
+.rico > svg {
+  display: block !important;
+}
+.rico svg {
+  width: 100%;
+  height: 100%;
+}
+.rico.rib {
+  position: relative;
+  cursor: pointer;
+}
+.rico.rib:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  content: " ";
+}
+.rico[data-it="true"] {
+  width: auto !important;
+}
+.b-osb .rico[data-it="true"],
+.b-tsb .rico[data-it="true"] {
+  border-top: 1px inset rgba(255,255,255,.15);
+  border-bottom: 0;
+}
+.rico[data-it="true"],
+.rico[data-it="true"] {
+  border-bottom: 1px inset rgba(255,255,255,.15);
+}
+.debug-bar .rico[data-it="true"] {
+  border: 1px inset rgba(255,255,255,.15);
+}
+.rico[data-it="true"] > b {
+  height: 100%;
+  padding: 0 5px;
+  font-weight: normal;
+  vertical-align: middle;
+}
+.rico[data-it="true"] > b,
+.rico[data-it="true"] > svg {
+  display: inline-block !important;
+}
+.rico[data-it="true"].p7 > svg {
+}
+/* width and height 100% */
+.rico.wh1 {
+  width: 100% !important;
+  height: 100% !important;
+}
+.rico.wh1 svg {
+  line-height: 100% !important;
+}
+/* width 100% */
+.rico.w1 {
+  width: 100% !important;
+}
+/* height 100% */
+.rico.h1 {
+  height: 100% !important;
+}
+.rico.h1 svg {
+  line-height: 100% !important;
+}
+/* ico size 100% */
+.rico.s-1 svg {
+  width: 100% !important;
+  height: 100% !important;
+}
+/* START ico size from 16px - 60px */
+.rico.s-16 {
+  width: 16px;
+  height: 16px;
+}
+.rico.s-20 {
+  width: 20px;
+  height: 20px;
+}
+.rico.s-24 {
+  width: 24px;
+  height: 24px;
+}
+.rico.s-28 {
+  width: 28px;
+  height: 28px;
+}
+.rico.s-32 {
+  width: 32px;
+  height: 32px;
+}
+.rico.s-36 {
+  width: 36px;
+  height: 36px;
+}
+.rico.s-40 {
+  width: 40px;
+  height: 40px;
+}
+.rico.s-44 {
+  width: 44px;
+  height: 44px;
+}
+.rico.s-48 {
+  width: 48px;
+  height: 48px;
+}
+.rico.s-52 {
+  width: 52px;
+  height: 52px;
+}
+.rico.s-56 {
+  width: 56px;
+  height: 56px;
+}
+.rico.s-60 {
+  width: 60px;
+  height: 60px;
+}
+.rico.s-16 svg {
+  max-width: 16px;
+  max-height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+}
+.rico.s-20 svg {
+  max-width: 20px;
+  max-height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.rico.s-24 svg {
+  max-width: 24px;
+  max-height: 24px;
+  font-size: 24px;
+  line-height: 24px;
+}
+.rico.s-28 svg {
+  max-width: 28px;
+  max-height: 28px;
+  font-size: 28px;
+  line-height: 28px;
+}
+.rico.s-32 svg {
+  max-width: 32px;
+  max-height: 32px;
+  font-size: 32px;
+  line-height: 32px;
+}
+.rico.s-36 svg {
+  max-width: 36px;
+  max-height: 36px;
+  font-size: 36px;
+  line-height: 36px;
+}
+.rico.s-40 svg {
+  max-width: 40px;
+  max-height: 40px;
+  font-size: 40px;
+  line-height: 40px;
+}
+.rico.s-44 svg {
+  max-width: 44px;
+  max-height: 44px;
+  font-size: 44px;
+  line-height: 44px;
+}
+.rico.s-48 svg {
+  max-width: 48px;
+  max-height: 48px;
+  font-size: 48px;
+  line-height: 48px;
+}
+.rico.s-52 svg {
+  max-width: 52px;
+  max-height: 52px;
+  font-size: 52px;
+  line-height: 52px;
+}
+.rico.s-56 svg {
+  max-width: 56px;
+  max-height: 56px;
+  font-size: 56px;
+  line-height: 56px;
+}
+.rico.s-60 svg {
+  max-width: 60px;
+  max-height: 60px;
+  font-size: 60px;
+  line-height: 60px;
+}
+/* END ico size from 16px - 60px */
+/* ico padding */
+.rico.p1 {
+  padding: 1px;
+}
+.rico.p2 {
+  padding: 2px;
+}
+.rico.p3 {
+  padding: 3px;
+}
+.rico.p4 {
+  padding: 4px;
+}
+.rico.p5 {
+  padding: 5px;
+}
+.rico.p6 {
+  padding: 6px;
+}
+.rico.p7 {
+  padding: 7px;
+}
+.rico.p8 {
+  padding: 8px;
+}
+.rico.p9 {
+  padding: 9px;
+}
+.rico.p10 {
+  padding: 10px;
+}
+.rico:not([data-it="true"]).p1 svg,
+.rico:not([data-it="true"]).p2 svg,
+.rico:not([data-it="true"]).p3 svg,
+.rico:not([data-it="true"]).p4 svg,
+.rico:not([data-it="true"]).p5 svg,
+.rico:not([data-it="true"]).p6 svg,
+.rico:not([data-it="true"]).p7 svg,
+.rico:not([data-it="true"]).p8 svg,
+.rico:not([data-it="true"]).p9 svg,
+.rico:not([data-it="true"]).p10 svg,
+.rico:not([data-it="true"]).p-1 svg,
+.rico:not([data-it="true"]).p-2 svg,
+.rico:not([data-it="true"]).p-3 svg,
+.rico:not([data-it="true"]).p-4 svg,
+.rico:not([data-it="true"]).p-5 svg {
+  width: 100% !important;
+}
